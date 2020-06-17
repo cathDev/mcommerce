@@ -11,6 +11,6 @@ public interface MicroserviceCommandesProxy {
     @PostMapping(value = "/commandes")
     public CommandeBean ajouterCommande(@RequestBody CommandeBean commande);
 
-    /*@GetMapping(value = "/commandes/{id}")
-    public CommandeBean recupererUneCommande(@PathVariable int id);*/
+    @GetMapping(value = "/commandes/{id}")
+    public CommandeBean recupererUneCommande(@PathVariable int id);
 }
