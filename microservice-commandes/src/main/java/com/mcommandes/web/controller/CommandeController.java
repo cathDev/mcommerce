@@ -37,4 +37,12 @@ public class CommandeController {
 
         return commande;
     }
+
+    @PutMapping(value = "/commandes")
+    public Commande modifierUneCommande(@RequestBody Commande commande){
+
+        Commande commandeModifie = commandesDao.save(commande);
+
+        return commandeModifie;
+    }
 }
