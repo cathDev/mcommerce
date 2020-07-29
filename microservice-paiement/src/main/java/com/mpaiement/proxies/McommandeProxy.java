@@ -1,3 +1,4 @@
+/*
 package com.mpaiement.proxies;
 
 import com.mpaiement.beans.CommandeBean;
@@ -19,3 +20,4 @@ public interface McommandeProxy {
     public CommandeBean recupererUneCommande(@PathVariable int id);
 
 }
+*/

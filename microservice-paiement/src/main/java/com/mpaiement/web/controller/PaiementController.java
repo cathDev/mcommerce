@@ -2,7 +2,7 @@ package com.mpaiement.web.controller;
 
 import com.mpaiement.dao.PaiementDao;
 import com.mpaiement.model.Paiement;
-import com.mpaiement.proxies.McommandeProxy;
+/*import com.mpaiement.proxies.McommandeProxy;*/
 import com.mpaiement.web.exceptions.PaiementExistantException;
 import com.mpaiement.web.exceptions.PaiementImpossibleException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,8 +16,8 @@ public class PaiementController {
     @Autowired
     PaiementDao paiementDao;
 
-    @Autowired
-    McommandeProxy mcommandeProxy;
+   /* @Autowired
+    McommandeProxy mcommandeProxy;*/
 
     @PostMapping(value = "/paiement")
     public ResponseEntity<Paiement>  payerUneCommande(@RequestBody Paiement paiement){
