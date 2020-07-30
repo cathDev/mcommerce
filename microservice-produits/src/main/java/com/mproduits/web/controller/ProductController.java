@@ -29,6 +29,7 @@ public class ProductController {
 
         if(products.isEmpty()) throw new ProductNotFoundException("Aucun produit n'est disponible à la vente");
 
+        // limitation du nomnbre de produits
         List<Product> productsLimite = products.subList(0, appProperties.getLimitDeProduits());
 
         return productsLimite;
