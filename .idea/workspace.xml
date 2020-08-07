@@ -4,19 +4,24 @@
     <list default="true" id="669875d2-12d8-476d-aaad-4958cb787a0f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-server-repo" afterPath="$PROJECT_DIR$/config-server-repo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientui/pom.xml" afterPath="$PROJECT_DIR$/clientui/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/ClientUiApplication.java" afterPath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/ClientUiApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/proxies/MicroserviceProduitsProxy.java" afterPath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/proxies/MicroserviceProduitsProxy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-commandes/pom.xml" afterPath="$PROJECT_DIR$/microservice-commandes/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-commandes/src/main/java/com/mcommandes/McommandesApplication.java" afterPath="$PROJECT_DIR$/microservice-commandes/src/main/java/com/mcommandes/McommandesApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-commandes/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/microservice-commandes/src/main/resources/bootstrap.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-paiement/pom.xml" afterPath="$PROJECT_DIR$/microservice-paiement/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-paiement/src/main/java/com/mpaiement/MpaiementApplication.java" afterPath="$PROJECT_DIR$/microservice-paiement/src/main/java/com/mpaiement/MpaiementApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-produits/pom.xml" afterPath="$PROJECT_DIR$/microservice-produits/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-produits/src/main/java/com/mproduits/configurations/ApplicationPropertiesConfiguration.java" afterPath="$PROJECT_DIR$/microservice-produits/src/main/java/com/mproduits/configurations/ApplicationPropertiesConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-produits/src/main/java/com/mproduits/MproduitsApplication.java" afterPath="$PROJECT_DIR$/microservice-produits/src/main/java/com/mproduits/MproduitsApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-produits/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/microservice-produits/src/main/resources/bootstrap.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/microservice-commandes/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/microservice-commandes/src/main/resources/bootstrap.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/microservice-paiement/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/microservice-paiement/src/main/resources/bootstrap.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/microservice-produits/target/" />
     <ignored path="$PROJECT_DIR$/microservice-commandes/target/" />
     <ignored path="$PROJECT_DIR$/microservice-paiement/target/" />
     <ignored path="$PROJECT_DIR$/clientui/target/" />
     <ignored path="$PROJECT_DIR$/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,52 +30,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="microservice-produits.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-server-repo/microservice-produits.properties">
+    <leaf>
+      <file leaf-file-name="MicroserviceProduitsProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clientui/src/main/java/com/clientui/proxies/MicroserviceProduitsProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-produits/src/main/resources/bootstrap.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="43" />
+            <state relative-caret-position="85">
+              <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-commandes/pom.xml">
+        <entry file="file://$PROJECT_DIR$/clientui/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+            <state relative-caret-position="340">
+              <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-commandes/src/main/resources/bootstrap.properties">
+      <file leaf-file-name="ClientUiApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clientui/src/main/java/com/clientui/ClientUiApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-paiement/src/main/resources/bootstrap.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -89,26 +74,35 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservice-paiement/src/main/java/com/mpaiement/MpaiementApplication.java" />
         <option value="$PROJECT_DIR$/microservice-paiement/src/main/java/com/mpaiement/proxies/McommandeProxy.java" />
         <option value="$PROJECT_DIR$/microservice-paiement/src/main/java/com/mpaiement/web/controller/PaiementController.java" />
         <option value="$PROJECT_DIR$/microservice-produits/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/config-server/src/main/java/com/mcommerce/configserver/ConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/config-server-repo/microservice-paiements.properties" />
-        <option value="$PROJECT_DIR$/config-server-repo/microservice-commandes.properties" />
         <option value="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/config-server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/microservice-produits/src/main/java/com/mproduits/web/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/microservice-paiement/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-commandes/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-commandes/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/microservice-paiement/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/microservice-produits/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-produits/src/main/java/com/mproduits/configurations/ApplicationPropertiesConfiguration.java" />
-        <option value="$PROJECT_DIR$/microservice-produits/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/config-server-repo/microservice-produits.properties" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/mcommerce/eurekaserver/EurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/microservice-paiement/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-commandes/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-produits/src/main/java/com/mproduits/MproduitsApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-paiement/src/main/java/com/mpaiement/MpaiementApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-commandes/src/main/java/com/mcommandes/McommandesApplication.java" />
+        <option value="$PROJECT_DIR$/config-server-repo/eureka-server.properties" />
         <option value="$PROJECT_DIR$/microservice-commandes/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/microservice-paiement/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/config-server-repo/microservice-commandes.properties" />
+        <option value="$PROJECT_DIR$/config-server-repo/microservice-paiements.properties" />
+        <option value="$PROJECT_DIR$/config-server-repo/microservice-produits.properties" />
+        <option value="$PROJECT_DIR$/microservice-produits/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/microservice-produits/pom.xml" />
+        <option value="$PROJECT_DIR$/clientui/src/main/java/com/clientui/proxies/MicroserviceProduitsProxy.java" />
+        <option value="$PROJECT_DIR$/clientui/pom.xml" />
+        <option value="$PROJECT_DIR$/clientui/src/main/java/com/clientui/ClientUiApplication.java" />
       </list>
     </option>
   </component>
@@ -140,60 +134,38 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="mcommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="config-server-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="clientui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mcommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-commandes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mcommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-commandes" type="462c0819:PsiDirectoryNode" />
+              <item name="clientui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mcommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-commandes" type="462c0819:PsiDirectoryNode" />
+              <item name="clientui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mcommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-commandes" type="462c0819:PsiDirectoryNode" />
+              <item name="clientui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mcommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-paiement" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mcommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-paiement" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mcommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-paiement" type="462c0819:PsiDirectoryNode" />
+              <item name="clientui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mcommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-paiement" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="clientui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mcommerce" type="b2602c69:ProjectViewProjectNode" />
@@ -224,46 +196,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mproduits" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mcommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-produits" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mproduits" type="462c0819:PsiDirectoryNode" />
-              <item name="configurations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mcommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-produits" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mproduits" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mcommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-produits" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mproduits" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mcommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-produits" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,7 +214,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2310757" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-server" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
@@ -306,6 +247,12 @@
       <module name="config-server" />
       <envs />
     </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mcommerce.eurekaserver.EurekaServerApplication" />
+      <module name="eureka-server" />
+      <envs />
+    </configuration>
     <configuration name="McommandesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -323,9 +270,19 @@
       <module name="mpaiement" />
       <envs />
     </configuration>
-    <configuration name="MproduitsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="MproduitsApplication (9001)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mproduits.MproduitsApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=9001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="mproduits" />
+      <envs />
+    </configuration>
+    <configuration name="MproduitsApplication (9011)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mproduits.MproduitsApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=9011" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <module name="mproduits" />
       <envs />
     </configuration>
@@ -457,12 +414,14 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.MproduitsApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.MpaiementApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.ClientUiApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.McommandesApplication" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplication" />
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.MproduitsApplication (9001)" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.MproduitsApplication (9011)" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.MpaiementApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.ClientUiApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.McommandesApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -477,12 +436,13 @@
       <updated>1595934140899</updated>
       <workItem from="1595934142502" duration="10059000" />
       <workItem from="1596121405898" duration="6279000" />
-      <workItem from="1596454558590" duration="4929000" />
+      <workItem from="1596454558590" duration="5576000" />
+      <workItem from="1596702465098" duration="8799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21267000" />
+    <option name="totallyTimeSpent" value="30713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -493,16 +453,17 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39144737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33881578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24177632" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20559211" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3536184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25567323" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27609682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -596,13 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-paiement/src/main/java/com/mpaiement/MpaiementApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-server/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -632,34 +586,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server-repo/microservice-paiements.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server-repo/microservice-commandes.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-produits/src/main/java/com/mproduits/web/controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -672,22 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-paiement/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="24" column="64" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-produits/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-produits/src/main/java/com/mproduits/configurations/ApplicationPropertiesConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -696,42 +610,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server-repo/microservice-produits.properties">
+    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-produits/src/main/resources/bootstrap.properties">
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/mcommerce/eurekaserver/EurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="43" />
+        <state relative-caret-position="85">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-paiement/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-commandes/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+        <state relative-caret-position="236">
+          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server-repo/eureka-server.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="66" lean-forward="true" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-paiement/src/main/java/com/mpaiement/MpaiementApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-commandes/src/main/java/com/mcommandes/McommandesApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server-repo/microservice-commandes.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="66" lean-forward="false" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server-repo/microservice-paiements.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server-repo/microservice-produits.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-commandes/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-paiement/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-produits/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientui/src/main/java/com/clientui/proxies/MicroserviceProduitsProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-produits/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="59" column="21" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="59" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientui/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-produits/src/main/java/com/mproduits/MproduitsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientui/src/main/java/com/clientui/ClientUiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -789,7 +815,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>config-server</last-edited>
+          <last-edited>eureka-server</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
