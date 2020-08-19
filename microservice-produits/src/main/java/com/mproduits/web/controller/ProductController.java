@@ -4,6 +4,8 @@ import com.mproduits.configurations.ApplicationPropertiesConfiguration;
 import com.mproduits.dao.ProductDao;
 import com.mproduits.model.Product;
 import com.mproduits.web.exceptions.ProductNotFoundException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -21,13 +23,18 @@ public class ProductController {
     @Autowired
     ApplicationPropertiesConfiguration appProperties;
 
+    Logger logger = LoggerFactory.getLogger(ProductController.class);
+
     // Affiche la liste de tous les produits disponibles
     @GetMapping(value = "/Produits")
     public List<Product> listeDesProduits(){
 
         List<Product> products = productDao.findAll();
 
-        if(products.isEmpty()) throw new ProductNotFoundException("Aucun produit n'est disponible à la vente");
+        if(products.isEmpty()){
+            logger.error("Aucun produit n'est disponible à la vente");
+            throw new ProductNotFoundException("Aucun produit n'est disponible à la vente");
+        }
 
         // limitation du nomnbre de produits
         List<Product> productsLimite = products.subList(0, appProperties.getLimitDeProduits());
@@ -42,7 +49,10 @@ public class ProductController {
 
         Optional<Product> product = productDao.findById(id);
 
-        if(!product.isPresent())  throw new ProductNotFoundException("Le produit correspondant à l'id " + id + " n'existe pas");
+        if(!product.isPresent()){
+            logger.error("Le produit correspondant à l'id " + id + " n'existe pas");
+            throw new ProductNotFoundException("Le produit correspondant à l'id " + id + " n'existe pas");
+        }
 
         return product;
     }
