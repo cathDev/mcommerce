@@ -5,6 +5,8 @@ import com.mpaiement.model.Paiement;
 /*import com.mpaiement.proxies.McommandeProxy;*/
 import com.mpaiement.web.exceptions.PaiementExistantException;
 import com.mpaiement.web.exceptions.PaiementImpossibleException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,6 +14,8 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class PaiementController {
+
+    private static final Logger logger = LoggerFactory.getLogger(PaiementController.class);
 
     @Autowired
     PaiementDao paiementDao;
@@ -25,13 +29,19 @@ public class PaiementController {
 
         //Vérifions s'il y a déjà un paiement enregistré pour cette commande
         Paiement paiementExistant = paiementDao.findByidCommande(paiement.getIdCommande());
-        if(paiementExistant != null) throw new PaiementExistantException("Cette commande est déjà payée");
+        if(paiementExistant != null) {
+            logger.error("Cette commande est déjà payée");
+            throw new PaiementExistantException("Cette commande est déjà payée");
+        }
 
         //Enregistrer le paiement
         Paiement nouveauPaiement = paiementDao.save(paiement);
 
 
-        if(nouveauPaiement == null) throw new PaiementImpossibleException("Erreur, impossible d'établir le paiement, réessayez plus tard");
+        if(nouveauPaiement == null){
+            logger.error("Erreur, impossible d'établir le paiement, réessayez plus tard");
+            throw new PaiementImpossibleException("Erreur, impossible d'établir le paiement, réessayez plus tard");
+        }
 
 
 

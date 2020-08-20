@@ -32,7 +32,7 @@ public class ProductController {
         List<Product> products = productDao.findAll();
 
         if(products.isEmpty()){
-            logger.error("Aucun produit n'est disponible à la vente");
+           /* logger.error("Aucun produit n'est disponible à la vente");*/
             throw new ProductNotFoundException("Aucun produit n'est disponible à la vente");
         }
 
