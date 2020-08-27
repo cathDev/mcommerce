@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="669875d2-12d8-476d-aaad-4958cb787a0f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-server-repo" afterPath="$PROJECT_DIR$/config-server-repo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/proxies/MicroserviceCommandesProxy.java" afterPath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/proxies/MicroserviceCommandesProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/proxies/MicroservicePaiementProxy.java" afterPath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/proxies/MicroservicePaiementProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/proxies/MicroserviceProduitsProxy.java" afterPath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/proxies/MicroserviceProduitsProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/produits.log" afterPath="$PROJECT_DIR$/logs/produits.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zuul-server/src/main/java/com/mcommerce/zuulserver/filters/LogFilter.java" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/mcommerce/zuulserver/filters/LogFilter.java" />
     </list>
     <ignored path="$PROJECT_DIR$/microservice-produits/target/" />
     <ignored path="$PROJECT_DIR$/microservice-commandes/target/" />
@@ -28,8 +25,8 @@
       <file leaf-file-name="MicroserviceProduitsProxy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clientui/src/main/java/com/clientui/proxies/MicroserviceProduitsProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="23" column="63" lean-forward="true" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+            <state relative-caret-position="136">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -455,12 +452,12 @@
       <workItem from="1597843520149" duration="5687000" />
       <workItem from="1597917809444" duration="7383000" />
       <workItem from="1598260274271" duration="11215000" />
-      <workItem from="1598524133084" duration="12011000" />
+      <workItem from="1598524133084" duration="13351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75326000" />
+    <option name="totallyTimeSpent" value="76666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="683" height="728" extended-state="0" />
@@ -474,10 +471,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44256756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44256756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2618243" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4256757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09149278" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -888,8 +885,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clientui/src/main/java/com/clientui/proxies/MicroserviceProduitsProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="23" column="63" lean-forward="true" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
