@@ -14,7 +14,7 @@ feignClient before including ribbon
 */
 
 @FeignClient(contextId ="microserviceProduitsProxy", name = "zuul-server")
-//@RibbonClient(name = "microservice-produits")
+@RibbonClient(name = "microservice-produits")
 public interface MicroserviceProduitsProxy {
 
     @GetMapping(value = "/microservice-produits/Produits")
