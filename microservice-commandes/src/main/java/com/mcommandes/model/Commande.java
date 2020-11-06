@@ -1,12 +1,15 @@
 package com.mcommandes.model;
 
 
+import org.hibernate.annotations.DynamicUpdate;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.util.Date;
 
 @Entity
+@DynamicUpdate
 public class Commande {
 
     @Id

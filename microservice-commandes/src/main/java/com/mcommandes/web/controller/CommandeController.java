@@ -12,6 +12,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Optional;
 
 @RestController
@@ -35,6 +36,26 @@ public class CommandeController {
         return new ResponseEntity<Commande>(commande, HttpStatus.CREATED);
     }
 
+    @GetMapping(value="/commandes")
+    public List<Commande> allCommande(){
+        return this.commandesDao.findAll();
+    }
+
+    @PutMapping(value = "/commandes/payee/{id}")
+    public Commande payerUneCommande(@PathVariable int id){
+        int nombreDeCommandeModifiee = 0;
+        nombreDeCommandeModifiee = commandesDao.payerUneCommande(id);
+        /*nombreDeCommandeModifiee > 0 ? return commandesDao.findById(id).orElse(null) : return null */
+        System.out.println("voici le nopmbre de ligne modifié "+nombreDeCommandeModifiee);
+        if(nombreDeCommandeModifiee > 0) {
+            return commandesDao.findById(id).orElse(null);
+        }
+        else {
+            return null;
+        }
+
+    }
+
     @GetMapping(value = "/commandes/{id}")
     public Optional<Commande> recupererUneCommande(@PathVariable int id){
 
@@ -55,4 +76,5 @@ public class CommandeController {
 
         return commandeModifie;
     }
+
 }

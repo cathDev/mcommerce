@@ -2,7 +2,7 @@ package com.mpaiement.web.controller;
 
 import com.mpaiement.dao.PaiementDao;
 import com.mpaiement.model.Paiement;
-/*import com.mpaiement.proxies.McommandeProxy;*/
+import com.mpaiement.proxies.McommandeProxy;
 import com.mpaiement.web.exceptions.PaiementExistantException;
 import com.mpaiement.web.exceptions.PaiementImpossibleException;
 import org.slf4j.Logger;
@@ -18,10 +18,10 @@ public class PaiementController {
     private static final Logger logger = LoggerFactory.getLogger(PaiementController.class);
 
     @Autowired
-    PaiementDao paiementDao;
+    private PaiementDao paiementDao;
 
-   /* @Autowired
-    McommandeProxy mcommandeProxy;*/
+    @Autowired
+    private McommandeProxy mcommandeProxy;
 
     @PostMapping(value = "/paiement")
     public ResponseEntity<Paiement>  payerUneCommande(@RequestBody Paiement paiement){
@@ -43,9 +43,11 @@ public class PaiementController {
             throw new PaiementImpossibleException("Erreur, impossible d'établir le paiement, réessayez plus tard");
         }
 
-
-
         //TODO Nous allons appeler le Microservice Commandes ici pour lui signifier que le paiement est accepté
+
+        System.out.println("voici l'id de commande payée: "+paiement.getIdCommande());
+        mcommandeProxy.payerUneCommande(paiement.getIdCommande());
+
 
         return new ResponseEntity<Paiement>(nouveauPaiement, HttpStatus.CREATED);
 
