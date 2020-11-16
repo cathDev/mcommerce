@@ -1,9 +1,11 @@
 package com.clientui.controller;
 
 import com.clientui.beans.CommandeBean;
+import com.clientui.beans.ExpeditionBean;
 import com.clientui.beans.PaiementBean;
 import com.clientui.beans.ProductBean;
 import com.clientui.proxies.MicroserviceCommandesProxy;
+import com.clientui.proxies.MicroserviceExpeditionProxy;
 import com.clientui.proxies.MicroservicePaiementProxy;
 import com.clientui.proxies.MicroserviceProduitsProxy;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +32,9 @@ public class ClientController {
 
     @Autowired
     private MicroservicePaiementProxy paiementProxy;
+
+    @Autowired
+    private MicroserviceExpeditionProxy microserviceExpeditionProxy;
 
     @RequestMapping("/")
     public String accueil(Model model){
@@ -95,6 +100,14 @@ public class ClientController {
         model.addAttribute("paiementOk", paiementAccepte); // on envoi un Boolean paiementOk à la vue
 
         return "confirmation";
+    }
+
+    @RequestMapping(value="suivi/{id}")
+    public String getOneExpedition(@PathVariable int id, Model model){
+        ExpeditionBean expedition = microserviceExpeditionProxy.getOneExpedition(id);
+        System.out.println("voici l'expédition "+expedition.toString());
+        model.addAttribute("expedition",expedition);
+        return "expedition";
     }
 
     private Long numcarte() {
